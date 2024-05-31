@@ -8,7 +8,7 @@ class NoteApp:
         self.root.geometry("400x250")
         self.root.resizable(True, True)
 
-        self.text_area = tk.Text(self.root, wrap='word', undo=True, font=("Arial", 12), bg="black", fg="white")
+        self.text_area = tk.Text(self.root, wrap='word', undo=True, font=("Arial", 12), bg="black", fg="white", insertbackground="white")
         self.text_area.pack(expand=1, fill='both', padx=5, pady=5)
 
         self.create_menu()
